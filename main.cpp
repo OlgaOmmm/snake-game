@@ -237,7 +237,6 @@ public:
 					do y_food = getRandomY();
 					while ((y[i] > (y_food - DIM * 2)) && (y[i] < (y_food + DIM * 2)));//if tail near food
 				}
-				std::cout << x_food << '\t' << y_food << '\n';
 				food_appeared = true;
 			}
 			transform = glm::mat4(1.0f); // make sure to initialize matrix to identity matrix first
