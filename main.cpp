@@ -8,13 +8,12 @@
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/type_ptr.hpp>
 
-#include "Shader.h"
-
 #include <vector>
 
-#include <iostream>
-#include <Windows.h>
 #include <ctime>
+#include <Windows.h>
+
+#include "Shader.h"
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 void processInput(GLFWwindow* window);
