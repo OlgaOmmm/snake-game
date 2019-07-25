@@ -22,6 +22,8 @@ Copy both include folders (glad and KHR) into your include(s) directory (or add 
 and add the glad.c file to your project.
 
 7) blueBall.jpg - my texture for game. You can use any other.
+
+Also you need to include header files: glad.h, glfw3.h, glm.hpp, matrix_transform.hpp, type_ptr.hpp, Windows.h. Libraries: vector, ctime.
 _____________________________________
 keyboard keys:
 
