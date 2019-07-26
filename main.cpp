@@ -335,7 +335,7 @@ void gameOver() {
 	system("pause");
 }
 
-// get random coordinates X and Y for food and bonuses
+// get random coordinates X and Y for food
 float getRandomX() {
 	float x_temp;
 
