@@ -371,7 +371,6 @@ void processInput(GLFWwindow* window)
 		glfwSetWindowShouldClose(window, true);
 
 	if (glfwGetKey(window, GLFW_KEY_RIGHT) == GLFW_PRESS) {
-		//if (x_head < END)
 			moving_up = false;
 			moving_down = false;
 			moving_left = false;
@@ -379,7 +378,6 @@ void processInput(GLFWwindow* window)
 	}
 
 	if (glfwGetKey(window, GLFW_KEY_LEFT) == GLFW_PRESS) {
-		//if (x_head > BEGIN)
 			moving_up = false;
 			moving_down = false;
 			moving_left = true;
@@ -387,7 +385,6 @@ void processInput(GLFWwindow* window)
 	}
 
 	if (glfwGetKey(window, GLFW_KEY_UP) == GLFW_PRESS) {
-		//if (y_head < END)
 			moving_up = true;
 			moving_down = false;
 			moving_left = false;
@@ -395,7 +392,6 @@ void processInput(GLFWwindow* window)
 	}
 
 	if (glfwGetKey(window, GLFW_KEY_DOWN) == GLFW_PRESS) {
-		//if (y_head > BEGIN)
 			moving_up = false;
 			moving_down = true;
 			moving_left = false;
