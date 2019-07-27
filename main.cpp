@@ -22,7 +22,6 @@ float getRandomX();
 float getRandomY();
 void foodIsEaten();
 void gameOver();
-float offset(float x, float x_old);
 
 // settings
 const unsigned int SCR_WIDTH = 800;
@@ -316,14 +315,6 @@ private:
 void main()
 {
 	Snake game;
-}
-
-float offset(float x, float x_old) {
-	if (x == (x_old + dx))
-		x = x_old + DIM;
-	if (x == (x_old - dx))
-		x = x_old - DIM;
-	return x;
 }
 
 void foodIsEaten() {
