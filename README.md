@@ -1,7 +1,7 @@
 # snake-game
 mini-game Snake (C++, OpenGL, STL)
 _____________________________________
-project includes files:
+Project includes files:
 
 1) main.cpp
 
@@ -25,7 +25,7 @@ and add the glad.c file to your project.
 
 Also you need to include header files: glad.h, glfw3.h, glm.hpp, matrix_transform.hpp, type_ptr.hpp, Windows.h. Libraries: vector, ctime.
 _____________________________________
-keyboard keys:
+Keyboard keys:
 
 - direction of movement: keyboard arrows Up, Right, Down, Left.
 
