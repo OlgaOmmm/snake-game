@@ -28,7 +28,7 @@ const unsigned int SCR_WIDTH = 800;
 const unsigned int SCR_HEIGHT = 600;
 
 const float DIM = 0.02; //dimension of figures, height==width
-const float BEGIN = -(1 - DIM), END = 1 - DIM;//-0.95, 0.95
+const float BEGIN = -(1 - DIM), END = 1 - DIM;
 float x_head =0.0, y_head = 0.0;
 float dx = 0.02, dy = 0.02;
 int length = 100;
